@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Burcunu Keşfet</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✨ Burcunu Keşfet ✨</h1>
+
+        <p class="aciklama">
+            Burcunu seç ve kendin hakkında daha fazla bilgi edin!
+        </p>
+
+        <select id="burcSec">
+            <option value="">-- Burcunu Seç --</option>
+            <option value="koc">♈ Koç</option>
+            <option value="boga">♉ Boğa</option>
+            <option value="ikizler">♊ İkizler</option>
+            <option value="yengec">♋ Yengeç</option>
+            <option value="aslan">♌ Aslan</option>
+            <option value="basak">♍ Başak</option>
+            <option value="terazi">♎ Terazi</option>
+            <option value="akrep">♏ Akrep</option>
+            <option value="yay">♐ Yay</option>
+            <option value="oglak">♑ Oğlak</option>
+            <option value="kova">♒ Kova</option>
+            <option value="balik">♓ Balık</option>
+        </select>
+
+        <button onclick="burcuGoster()">
+            🔮 Burcumu Göster
+        </button>
+
+        <div id="sonuc" class="sonuc"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
